@@ -22,8 +22,8 @@ I spent around 7 hours to check and complete the task.
   - `CurrencyRateProviderInterface`: Interface for fetching currency exchange rates.
 
 - **Services**
-  - `BinProvider`: Implementation of `BinProviderInterface` to fetch BIN data using `file_get_contents`.
-  - `CurrencyRateProvider`: Implementation of `CurrencyRateProviderInterface` to fetch currency exchange rates using `file_get_contents`.
+  - `BinProvider`: Implementation of `BinProviderInterface` to fetch BIN data.
+  - `CurrencyRateProvider`: Implementation of `CurrencyRateProviderInterface` to fetch currency exchange rates.
 
 - **Transaction**
   - `EuChecker`: Checks if a given country code belongs to the EU.
